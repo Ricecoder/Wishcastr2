@@ -1,0 +1,24 @@
+.wishcastr-title {
+    font-family: 'Lobster Two', cursive;    
+    width: 70%;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.wishcastr-title a {
+    text-decoration: none;
+    color: #064583;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.login {
+    display: inline-block;
+    width: 25%;
+}
+
+.search {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
