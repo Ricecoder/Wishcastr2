@@ -1,0 +1,16 @@
+<div class="search">
+  <h2 class="search-h2">Find what you're <span id="wishing-span">wishing</span> for </h2>
+
+    <input name="query" placeholder="cast a line" 
+      #query (keyup.enter)="search(query.value)" />
+    <button type="button"
+    (click)="search(query.value)">Search</button>
+</div>
+
+<!-- <div class="results-div" *ngIf="results.length > 1"> -->
+<div class="results-div">
+        
+  <h2 id="result-h2"> Results </h2>
+    <results-component [results]="results">
+    </results-component>
+</div> 

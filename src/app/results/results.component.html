@@ -1,0 +1,54 @@
+
+<ul class="results-list">
+  <li class="result-li" *ngFor="let result of results">
+    <figure class="result-img-container">
+      <img src="{{result.image_large}}" class="result-img"/>      
+    </figure>
+    
+    <div class="result-info">
+      <div class="result-title">
+        <h3>{{result.title | limitTo: 60}}</h3> 
+      </div>
+      
+      <div class="wish-star">
+        <i class="fa fa-star-o hvr-grow" aria-hidden="true"></i>
+      </div>
+      
+      <div class="result-description">
+        <p> {{result.description | limitTo: 250}}</p>
+      </div>
+      
+      <p class="result-price">{{result.current_price | currency: 'USD' : true}}</p> 
+    </div>
+  </li>
+</ul>
+
+<!-- ####### DEV ONLY ######## -->
+<!--
+<ul class="results-list">
+    <li class="result-li">
+      <figure class="result-img-container">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/410ySTmmfZL.jpg" class="result-img"/>      
+      </figure>
+      
+      <div class="result-info">
+        <div class="result-title">
+          <h3>
+            Sanei Super Mario All Star Collection 8" Yoshi Plush, Small
+          </h3> 
+        </div>
+        
+        <div class="wish-star">
+          <i class="fa fa-star-o hvr-grow" aria-hidden="true"></i>
+        </div>
+        
+        <div class="result-description">
+          <p> {{description | limitTo: 250}}
+          </p>
+        </div>
+        
+        <p class="result-price">{{price | currency: 'USD': true}}</p> 
+      </div>
+    </li>
+  </ul>
+-->

@@ -1,0 +1,49 @@
+.search {
+    color: #fff;
+    padding-bottom: 4%;
+    background-color: #F9BE12;
+    
+}
+
+.search-h2 {
+    font-size: 32pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    
+}
+
+#wishing-span {
+    font-family: 'Lobster Two', cursive;
+    font-weight: lighter;
+    font-size: 32pt;
+}
+
+button {
+    background-color: #068383;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#result-h2 {
+    color: rgb(6, 69, 131);
+    font-size: 25pt;
+}
+ 
+
+/* RESULTS */
+
+.results-list {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
