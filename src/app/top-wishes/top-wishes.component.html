@@ -1,4 +1,4 @@
-<h2>Top Wishes</h2>
+<h2 id="top-wishes-title">Top Wishes</h2>
   <ul class="top-wishes-list" >
   <li class="top-wish-li" *ngFor="let wish of topWishes">
     <figure class="top-img-container">
@@ -6,7 +6,7 @@
     </figure>
 
     <div class="top-info">
-      <h3 class="top-title">{{wish.title}}</h3>
+      <h3 class="top-product-title">{{wish.title}}</h3>
       <p class="top-description">{{wish.description | limitTo: 150}}</p>
       <p class="top-price">{{wish.current_price | currency: 'USD': true}}</p>
       <div class="star-link" ng-click="starProduct()" >
