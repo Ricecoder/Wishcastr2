@@ -10,6 +10,7 @@
     background-color: rgb(242, 242, 242);
     width: 80%;
     border-bottom: 10px white solid;
+    height: 300px;
 }
 
 .result-img-container {
@@ -18,7 +19,7 @@
     overflow: hidden;
     float: left;
     margin: 2% 0 2% 0;
-    padding-left: 2%;    
+    padding-left: 2%; 
 }
 
 .result-img {
@@ -65,11 +66,13 @@
     text-align: left;
     width: 75%;
     float: left;
+    color: #06838A;
+    font-size: 14pt;
 }
 
 .result-price {
     float: right;
-    margin-right: 50px 55px 0 0;
+    margin: 50px 55px 0 0;
     color: #068383;
     font-size: 20pt;
 }

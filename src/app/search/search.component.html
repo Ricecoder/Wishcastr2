@@ -7,8 +7,8 @@
     (click)="search(query.value)">Search</button>
 </div>
 
-<!-- <div class="results-div" *ngIf="results.length > 1"> -->
-<div class="results-div">
+<div class="results-div" *ngIf="results.length > 1">
+<!-- <div class="results-div"> -->  <!-- DEV ONLY -->
         
   <h2 id="result-h2"> Results </h2>
     <results-component [results]="results">

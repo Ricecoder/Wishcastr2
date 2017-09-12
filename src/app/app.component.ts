@@ -7,6 +7,7 @@ import { User } from './user';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent implements OnInit {
   user: User;
   userEndpoint: string = '/user';

@@ -1,4 +1,18 @@
-<p>
-  top-wishes-component works!
-</p>
+<h2>Top Wishes</h2>
+  <ul class="top-wishes-list" >
+  <li class="top-wish-li" *ngFor="let wish of topWishes">
+    <figure class="top-img-container">
+      <img src="{{wish.image_large}}" class="top-image" />
+    </figure>
 
+    <div class="top-info">
+      <h3 class="top-title">{{wish.title}}</h3>
+      <p class="top-description">{{wish.description | limitTo: 150}}</p>
+      <p class="top-price">{{wish.current_price | currency: 'USD': true}}</p>
+      <div class="star-link" ng-click="starProduct()" >
+          <span class="fa fa-star-o hvr-grow" title="Create a Wish"></span>
+      </div>
+    </div>
+
+  </li>
+</ul>

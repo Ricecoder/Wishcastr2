@@ -19,7 +19,6 @@ export class SearchComponent implements OnInit {
   DRAFT_WISH: string = 'draft.json';
   WISHES_PATH: string = '/wishes.json';
   WISH_PATH: string = '/wishes/';
-  TOP_WISHES_PATH: string = '/products/top.json';
 
   results: SearchResult[] = [];
 
