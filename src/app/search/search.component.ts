@@ -13,7 +13,6 @@ import { SearchResult } from '../search-result';
 })
 export class SearchComponent implements OnInit {
   // query: string;
-  // searchEndpoint: string = '/search';
   BASE_URL: string = "http://localhost:3000";
   SEARCH_ENDPOINT: string = '/products/search.json?query=';
   DRAFT_WISH: string = 'draft.json';

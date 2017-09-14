@@ -1,6 +1,7 @@
 .search {
     color: #fff;
     padding-bottom: 4%;
+    padding-top: 1%;
     background-color: #F9BE12;
     
 }
@@ -24,6 +25,8 @@ button {
     border: none;
     border-radius: 3px;
     font-size: 1.5em;
+    padding: 5px 15px;
+    margin-left: 9px;
 }
 
 input {
@@ -31,6 +34,7 @@ input {
     border-radius: 3px;
     text-align: center;
     font-size: 1.5em;
+    padding: 5px 95px;
 }
 
 #result-h2 {
