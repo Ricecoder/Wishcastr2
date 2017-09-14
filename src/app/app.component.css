@@ -2,6 +2,23 @@
     margin-bottom: 2%;
 }
 
+#welcome-message {
+    color: #064583;
+    font-size: 16pt;
+    display: inline-block;
+}
+
+#login-btn {
+    background-color: #068383;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14pt;
+    padding: 5px 15px;
+    margin: 16px;
+    float: right;
+}
+
 .wishcastr-title {
     font-family: 'Lobster Two', cursive;    
     width: 70%;
